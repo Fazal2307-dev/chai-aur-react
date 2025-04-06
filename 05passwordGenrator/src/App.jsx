@@ -8,7 +8,9 @@ function App() {
   const [charAllowed ,setCharAllowed] = useState(false)
   const [password,setPassword] = useState("")
 
-const passwordGenerator = useCallback(fn, [])
+const passwordGenerator = useCallback(() =>{
+
+}, [length,numberAllowed,charAllowed,setPassword])
 
   return (
     <>
