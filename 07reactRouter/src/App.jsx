@@ -7,11 +7,9 @@ import Footer from "./components/Footer/Footer"
   
 
   return (
-   <div>
-     <Header />
-     <Home />
-     <Footer />
-   </div>
+   <>
+   
+   </>
   )
 }
 
