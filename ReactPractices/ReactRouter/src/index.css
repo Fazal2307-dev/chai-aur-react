@@ -85,3 +85,9 @@ font-size: 16px;
 .active{
   color:burlywood
 }
+.contact-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
