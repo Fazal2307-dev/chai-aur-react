@@ -10,6 +10,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <div className="container">
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/Carrer' element={<Carrer />}></Route>
@@ -17,6 +18,8 @@ const App = () => {
         <Route path='/Internship' element={<Internship />}></Route>
         <Route path='/Job' element={<Job/>}></Route>
       </Routes>
+      </div>
+     
     </div>
   )
 }
