@@ -73,15 +73,7 @@ font-size: 16px;
   font-size: 70px;
 }
 
-.about{
-  background-color: aqua;
-}
-.contact{
-  background-color: blue;
-}
-.product{
-  background-color: peru;
-}
+
 .active{
   color:burlywood
 }

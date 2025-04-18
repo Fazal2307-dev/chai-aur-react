@@ -7,6 +7,9 @@ import RootLayout from './RootLayout/RootLayout'
 import ContactLayout from './RootLayout/ContactLayout'
 import ContactForm from './components/ContactForm'
 import ContactInfo from './components/contactInfo'
+import NotFound from './components/NotFound'
+import JobLayout from './RootLayout/JobLayout'
+import Job from './Pages/Job'
 
 const App = () => {
   const router = createBrowserRouter(
@@ -19,6 +22,10 @@ const App = () => {
                   <Route path='info' element={<ContactInfo />}/>
                   <Route path='form' element={<ContactForm />}/>
                 </Route>
+                <Route path='job' element={<JobLayout />}>
+                  <Route index element={<Job />}/>
+                </Route>
+                <Route path='*' element={<NotFound />} />
 
       </Route>
     )
